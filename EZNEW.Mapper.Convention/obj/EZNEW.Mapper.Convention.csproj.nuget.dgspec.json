@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\IceLee\\EZNEW\\GitHub\\EZNEW.Mapper.Convention\\EZNEW.Mapper.Convention\\EZNEW.Mapper.Convention.csproj": {}
+  },
+  "projects": {
+    "E:\\IceLee\\EZNEW\\GitHub\\EZNEW.Mapper.Convention\\EZNEW.Mapper.Convention\\EZNEW.Mapper.Convention.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\IceLee\\EZNEW\\GitHub\\EZNEW.Mapper.Convention\\EZNEW.Mapper.Convention\\EZNEW.Mapper.Convention.csproj",
+        "projectName": "EZNEW.Mapper.Convention",
+        "projectPath": "E:\\IceLee\\EZNEW\\GitHub\\EZNEW.Mapper.Convention\\EZNEW.Mapper.Convention\\EZNEW.Mapper.Convention.csproj",
+        "packagesPath": "C:\\Users\\DingBin.Li\\.nuget\\packages\\",
+        "outputPath": "E:\\IceLee\\EZNEW\\GitHub\\EZNEW.Mapper.Convention\\EZNEW.Mapper.Convention\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DingBin.Li\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.eznew.net/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "EZNEW": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

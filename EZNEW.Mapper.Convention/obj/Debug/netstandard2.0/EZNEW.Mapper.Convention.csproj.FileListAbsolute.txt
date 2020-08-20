@@ -1,0 +1,8 @@
+E:\IceLee\EZNEW\GitHub\EZNEW.Mapper.Convention\EZNEW.Mapper.Convention\bin\Debug\netstandard2.0\EZNEW.Mapper.Convention.deps.json
+E:\IceLee\EZNEW\GitHub\EZNEW.Mapper.Convention\EZNEW.Mapper.Convention\bin\Debug\netstandard2.0\EZNEW.Mapper.Convention.dll
+E:\IceLee\EZNEW\GitHub\EZNEW.Mapper.Convention\EZNEW.Mapper.Convention\obj\Debug\netstandard2.0\EZNEW.Mapper.Convention.AssemblyInfoInputs.cache
+E:\IceLee\EZNEW\GitHub\EZNEW.Mapper.Convention\EZNEW.Mapper.Convention\obj\Debug\netstandard2.0\EZNEW.Mapper.Convention.AssemblyInfo.cs
+E:\IceLee\EZNEW\GitHub\EZNEW.Mapper.Convention\EZNEW.Mapper.Convention\bin\Debug\netstandard2.0\EZNEW.Mapper.Convention.pdb
+E:\IceLee\EZNEW\GitHub\EZNEW.Mapper.Convention\EZNEW.Mapper.Convention\obj\Debug\netstandard2.0\EZNEW.Mapper.Convention.csproj.CoreCompileInputs.cache
+E:\IceLee\EZNEW\GitHub\EZNEW.Mapper.Convention\EZNEW.Mapper.Convention\obj\Debug\netstandard2.0\EZNEW.Mapper.Convention.dll
+E:\IceLee\EZNEW\GitHub\EZNEW.Mapper.Convention\EZNEW.Mapper.Convention\obj\Debug\netstandard2.0\EZNEW.Mapper.Convention.pdb
