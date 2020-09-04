@@ -96,15 +96,16 @@ namespace EZNEW.Mapper.Convention
             var domainParameterTypes = allTypes.Where(c => domainParameterContract.IsAssignableFrom(c));
             foreach (var parameterType in domainParameterTypes)
             {
+                var parameterName = parameterType.Name.LSplit("Parameter")[0];
                 //parameter dto
-                var parameterDto = allTypes.FirstOrDefault(c => c.Name == $"{parameterType.Name}Dto");
+                var parameterDto = allTypes.FirstOrDefault(c => c.Name == $"{parameterName}Dto");
                 if (parameterDto != null)
                 {
                     mapperConfigurationExpression.CreateMap(parameterType, parameterDto, defaultMemberValidation);
                     mapperConfigurationExpression.CreateMap(parameterDto, parameterType, defaultMemberValidation);
                 }
                 // parameter viewmodel
-                var parameterViewModel = allTypes.FirstOrDefault(c => c.Name == $"{parameterType.Name}ViewModel");
+                var parameterViewModel = allTypes.FirstOrDefault(c => c.Name == $"{parameterName}ViewModel");
                 if (parameterViewModel != null && parameterDto != null)
                 {
                     mapperConfigurationExpression.CreateMap(parameterViewModel, parameterDto, defaultMemberValidation);
