@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EZNEW.Mapper.Convention</id>
+    <version>$version$</version>
+    <title></title>
+    <authors>DingBin.Li</authors>
+    <owners>EZNEW</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/eznew-net/EZNEW.Mapper.Convention/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/eznew-net/EZNEW.Mapper.Convention</projectUrl>
+    <iconUrl>http://www.eznew.net/nugetico.png</iconUrl>
+    <description>Use automapper to configure object mapping</description>
+    <copyright>Copyright © DingBin.Li</copyright>
+    <tags>.NET,EZNEW,AutoMapper</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="AutoMapper" version="10.0.0" />
+        <dependency id="EZNEW" version="3.1.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="EZNEW.Mapper.Convention\bin\$configuration$\netstandard2.0\EZNEW.Mapper.Convention.dll" target="lib\netstandard2.0" />
+	<file src="EZNEW.Mapper.Convention\bin\$configuration$\netstandard2.0\EZNEW.Mapper.Convention.pdb" target="lib\netstandard2.0" />
+  </files>
+</package>
